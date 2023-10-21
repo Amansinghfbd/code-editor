@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# React Code Editor with HTML, CSS, and JavaScript Compilation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple web-based code editor implemented in React that allows you to write and compile HTML, CSS, and JavaScript code. This project also includes a copy button, save button, and a lock/unlock button for enhanced functionality.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Three code editor sections for HTML, CSS, and JavaScript.
+- Real-time compilation and display of code output.
+- Indentation support with the `Tab` key.
+- Copy the compiled code to the clipboard.
+- Save your code snippets locally.
+- Lock/unlock code editors to prevent accidental changes.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How to Use
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Follow these steps to set up and use the React Code Editor:
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this repository to your local machine:
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/Amansinghfbd/react-code-editor.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
+    ```bash
+    cd react-code-editor
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install the necessary dependencies:
+    ```bash
+    npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Running the Application
 
-### `npm run eject`
+1. Start the development server:
+    ```bash
+    npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Open your web browser and visit http://localhost:3000 to access the Code Editor.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Write your HTML, CSS, and JavaScript code in their respective code editor sections.
+2. Click the "Copy" button to copy the compiled code to your clipboard.
+3. Click the "Save" button to save your code locally.
+4. Click the "Lock" button to prevent further editing of the code. Click "Unlock" to enable editing again.
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+To deploy this application to a live server, you can use platforms like Netlify, Vercel, or GitHub Pages. Make sure to configure your deployment settings according to the platform of your choice.
 
-### `npm run build` fails to minify
+### Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was created as a simple demonstration of a code editor in React with basic features. It is inspired by the need for a lightweight code editor for small projects and educational purposes.
+
+### Author
+
+Aman Singh
+GitHub: https://github.com/Amansinghfbd
+LinkedIn: https://www.linkedin.com/in/aman-singh-719029242/
